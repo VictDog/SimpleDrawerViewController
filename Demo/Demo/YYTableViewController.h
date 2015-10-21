@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YYTableViewController.h
 //  Demo
 //
 //  Created by Yang on 15/10/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "YYDrawerViewController.h"
-@interface ViewController : YYDrawerViewController
+@interface YYTableViewController : UITableViewController
 
 @end
-

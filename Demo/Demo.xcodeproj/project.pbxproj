@@ -14,6 +14,8 @@
 		2FC157951BD7D86100E726E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC157941BD7D86100E726E3 /* Images.xcassets */; };
 		2FC157981BD7D86100E726E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC157961BD7D86100E726E3 /* LaunchScreen.xib */; };
 		2FC157A41BD7D86100E726E3 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC157A31BD7D86100E726E3 /* DemoTests.m */; };
+		2FC157B01BD7D96100E726E3 /* YYDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC157AF1BD7D96100E726E3 /* YYDrawerViewController.m */; };
+		2FC157B31BD7D9AA00E726E3 /* YYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC157B21BD7D9AA00E726E3 /* YYTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2FC1579D1BD7D86100E726E3 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC157A21BD7D86100E726E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC157A31BD7D86100E726E3 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		2FC157AE1BD7D96100E726E3 /* YYDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDrawerViewController.h; sourceTree = "<group>"; };
+		2FC157AF1BD7D96100E726E3 /* YYDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDrawerViewController.m; sourceTree = "<group>"; };
+		2FC157B11BD7D9AA00E726E3 /* YYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableViewController.h; sourceTree = "<group>"; };
+		2FC157B21BD7D9AA00E726E3 /* YYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,13 @@
 		2FC157861BD7D86100E726E3 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2FC157AD1BD7D96100E726E3 /* DrawerViewController */,
 				2FC1578B1BD7D86100E726E3 /* AppDelegate.h */,
 				2FC1578C1BD7D86100E726E3 /* AppDelegate.m */,
 				2FC1578E1BD7D86100E726E3 /* ViewController.h */,
 				2FC1578F1BD7D86100E726E3 /* ViewController.m */,
+				2FC157B11BD7D9AA00E726E3 /* YYTableViewController.h */,
+				2FC157B21BD7D9AA00E726E3 /* YYTableViewController.m */,
 				2FC157911BD7D86100E726E3 /* Main.storyboard */,
 				2FC157941BD7D86100E726E3 /* Images.xcassets */,
 				2FC157961BD7D86100E726E3 /* LaunchScreen.xib */,
@@ -117,6 +126,15 @@
 				2FC157A21BD7D86100E726E3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC157AD1BD7D96100E726E3 /* DrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FC157AE1BD7D96100E726E3 /* YYDrawerViewController.h */,
+				2FC157AF1BD7D96100E726E3 /* YYDrawerViewController.m */,
+			);
+			path = DrawerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC157901BD7D86100E726E3 /* ViewController.m in Sources */,
+				2FC157B31BD7D9AA00E726E3 /* YYTableViewController.m in Sources */,
+				2FC157B01BD7D96100E726E3 /* YYDrawerViewController.m in Sources */,
 				2FC1578D1BD7D86100E726E3 /* AppDelegate.m in Sources */,
 				2FC1578A1BD7D86100E726E3 /* main.m in Sources */,
 			);
