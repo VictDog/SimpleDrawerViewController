@@ -9,7 +9,7 @@
     YYTableViewController *tableViewVc = [[YYTableViewController alloc] init];
     tableViewVc.view.frame = self.leftView.bounds;
     [self.leftView addSubview:tableViewVc.view];
-    // 把A控制器的view 添加到B控制器的view上，那么A控制器必须成为B控制器的自控制器。
+    // 把A控制器的view 添加到B控制器的view上，那么A控制器必须成为B控制器的子控制器。
     [self addChildViewController:tableViewVc];
    
 ##### 注 : 里面有一个简单地demo可以简单地显示其效果    
