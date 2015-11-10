@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F08C9061BF1990900A53F7C /* YYTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F08C9051BF1990900A53F7C /* YYTableCell.m */; };
 		2FC1578A1BD7D86100E726E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC157891BD7D86100E726E3 /* main.m */; };
 		2FC1578D1BD7D86100E726E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1578C1BD7D86100E726E3 /* AppDelegate.m */; };
 		2FC157901BD7D86100E726E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1578F1BD7D86100E726E3 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F08C9041BF1990900A53F7C /* YYTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableCell.h; sourceTree = "<group>"; };
+		2F08C9051BF1990900A53F7C /* YYTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableCell.m; sourceTree = "<group>"; };
 		2FC157841BD7D86100E726E3 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC157881BD7D86100E726E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC157891BD7D86100E726E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				2FC1578F1BD7D86100E726E3 /* ViewController.m */,
 				2FC157B11BD7D9AA00E726E3 /* YYTableViewController.h */,
 				2FC157B21BD7D9AA00E726E3 /* YYTableViewController.m */,
+				2F08C9041BF1990900A53F7C /* YYTableCell.h */,
+				2F08C9051BF1990900A53F7C /* YYTableCell.m */,
 				2FC157911BD7D86100E726E3 /* Main.storyboard */,
 				2FC157941BD7D86100E726E3 /* Images.xcassets */,
 				2FC157961BD7D86100E726E3 /* LaunchScreen.xib */,
@@ -241,6 +246,7 @@
 				2FC157B31BD7D9AA00E726E3 /* YYTableViewController.m in Sources */,
 				2FC157B01BD7D96100E726E3 /* YYDrawerViewController.m in Sources */,
 				2FC1578D1BD7D86100E726E3 /* AppDelegate.m in Sources */,
+				2F08C9061BF1990900A53F7C /* YYTableCell.m in Sources */,
 				2FC1578A1BD7D86100E726E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +442,7 @@
 				2FC157A91BD7D86100E726E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC157AA1BD7D86100E726E3 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +451,7 @@
 				2FC157AC1BD7D86100E726E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

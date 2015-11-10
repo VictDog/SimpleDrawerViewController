@@ -7,7 +7,7 @@
 //
 
 #import "YYTableViewController.h"
-
+#import "YYTableCell.h"
 @interface YYTableViewController ()
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @end
@@ -41,9 +41,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *ID = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    YYTableCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+        cell = [[YYTableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
     cell.textLabel.text = self.dataArray[indexPath.row];
     return cell;
@@ -65,5 +65,6 @@
         
     }
 }
+
 @end
 
